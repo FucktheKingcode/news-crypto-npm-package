@@ -25,9 +25,9 @@ class NewsService {
     return Array.from(this.users.values());
   }
 
-  async fetchNewsForRegions(regions, currencies) {
+  async fetchNewsForRegions(regions, currencies, NEWS_API_TOKEN) {
     const regionString = regions.join(',');
-    let url = `https://cryptopanic.com/api/v1/posts/?auth_token=${process.env.NEWS_API_TOKEN}&regions=${regionString}`;
+    let url = `https://cryptopanic.com/api/v1/posts/?auth_token=${NEWS_API_TOKEN}&regions=${regionString}`;
 
     if (currencies) {
       url += `&currencies=${currencies.join(',')}`;
