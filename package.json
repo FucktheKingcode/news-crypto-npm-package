@@ -1,0 +1,25 @@
+{
+  "name": "@saitamacoder/news-crypto",
+  "version": "1.0.0",
+  "description": "How to get cryptocurrency news super fast",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FucktheKingcode/news-crypto-npm-package.git"
+  },
+  "keywords": [
+    "news-crypto"
+  ],
+  "author": "Saitama Coder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FucktheKingcode/news-crypto-npm-package/issues"
+  },
+  "homepage": "https://github.com/FucktheKingcode/news-crypto-npm-package#readme",
+  "dependencies": {
+    "axios": "^1.7.2"
+  }
+}
